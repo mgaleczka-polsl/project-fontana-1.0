@@ -1,0 +1,25 @@
+# Based on LLVM style, modified to meet MISRA / Embedded standards
+BasedOnStyle: LLVM
+Language: Cpp
+Standard: Latest
+
+# --- MISRA compliant structure rules ---
+AllowShortBlocksOnASingleLine: Never
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: False
+AllowShortFunctionsOnASingleLine: None
+AccessModifierOffset: -4
+
+# --- Code format ---
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ColumnLimit: 120
+BreakBeforeBraces: Allman
+PointerAlignment: Left
+SortIncludes: CaseSensitive
+
+#  --- Other --
+SpacesInContainerLiterals: False
+AlignAfterOpenBracket: Align
+AlignOperands: AlignAfterOperator
